@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PJSearchBar : UISearchBar
+@protocol PJSearchBarDelegate <NSObject>
+
+@end
+
+@interface PJSearchBar : UISearchBar<UISearchBarDelegate>
+
+@property (nonatomic, weak) id <PJSearchBarDelegate> delegate;
+@property (nonatomic, strong) UITextField *searchTextField;
+
+- (id)initWithFrame:(CGRect)frame placeholder:(NSString *)placeholder;
 
 @end

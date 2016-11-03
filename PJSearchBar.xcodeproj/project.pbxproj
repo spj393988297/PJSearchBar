@@ -15,6 +15,7 @@
 		753DB1191DCAE5B4003AB6D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753DB1171DCAE5B4003AB6D6 /* LaunchScreen.storyboard */; };
 		753DB1241DCAE5B4003AB6D6 /* PJSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753DB1231DCAE5B4003AB6D6 /* PJSearchBarTests.m */; };
 		753DB12F1DCAE5B4003AB6D6 /* PJSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753DB12E1DCAE5B4003AB6D6 /* PJSearchBarUITests.m */; };
+		753DB13E1DCAE5E8003AB6D6 /* PJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 753DB13D1DCAE5E8003AB6D6 /* PJSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		753DB12A1DCAE5B4003AB6D6 /* PJSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		753DB12E1DCAE5B4003AB6D6 /* PJSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSearchBarUITests.m; sourceTree = "<group>"; };
 		753DB1301DCAE5B4003AB6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753DB13C1DCAE5E8003AB6D6 /* PJSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJSearchBar.h; sourceTree = "<group>"; };
+		753DB13D1DCAE5E8003AB6D6 /* PJSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				753DB10D1DCAE5B4003AB6D6 /* AppDelegate.m */,
 				753DB10F1DCAE5B4003AB6D6 /* ViewController.h */,
 				753DB1101DCAE5B4003AB6D6 /* ViewController.m */,
+				753DB13C1DCAE5E8003AB6D6 /* PJSearchBar.h */,
+				753DB13D1DCAE5E8003AB6D6 /* PJSearchBar.m */,
 				753DB1121DCAE5B4003AB6D6 /* Main.storyboard */,
 				753DB1151DCAE5B4003AB6D6 /* Assets.xcassets */,
 				753DB1171DCAE5B4003AB6D6 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				753DB1111DCAE5B4003AB6D6 /* ViewController.m in Sources */,
+				753DB13E1DCAE5E8003AB6D6 /* PJSearchBar.m in Sources */,
 				753DB10E1DCAE5B4003AB6D6 /* AppDelegate.m in Sources */,
 				753DB10B1DCAE5B4003AB6D6 /* main.m in Sources */,
 			);
@@ -432,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunpeijie.PJSearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunpeijie.PJSearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
